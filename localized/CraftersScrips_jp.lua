@@ -14,7 +14,7 @@ configs:
     is_choice: true
     choices: ["木工師", "鍛冶師", "甲冑師", "彫金師", "革細工師", "裁縫師", "錬金術師", "調理師"]
 
-  入手するスクリップ:
+  スクリップ:
     default: "Orange"
     description: 作成／購入に使用するスクリップの種類（橙貨（Orange） / 紫貨（Purple））を選択します。
     is_choice: true
@@ -28,13 +28,13 @@ configs:
     default: 名匠のハイアルテマテリジャ
     description: スクリップ交換で購入するアイテム名。
 
-  どこで製作などをするか:
+  製作場所:
     default: Inn
     description: 待機場所。Inn：宿屋 / Home：ハウス（Lifestram側の設定必須） / None：ソリューションナイン（非推奨） に滞在。
     is_choice: true
     choices: ["Inn", "Home", "None"]
 
-  拠点をどこにするか:
+  納品・交換・リテイナー拠点:
     default: ソリューション・ナイン
     description: 納品・交換・リテイナー処理の拠点都市。
     is_choice: true
