@@ -156,9 +156,37 @@ ScripExchangeItems = {
         itemName        = "高濃縮錬金薬",
         categoryMenu    = 1,
         subcategoryMenu = 10 + (SkystellToolsUnlocked and 1 or 0),
-        listIndex       = 5,
+        listIndex       = 10,
         price           = 125
     },
+    {
+        itemName        = "フリントコーン",
+        categoryMenu    = 1,
+        subcategoryMenu = 10 + (SkystellToolsUnlocked and 1 or 0),
+        listIndex       = 4,
+        price           = 15
+    },
+    {
+        itemName        = "ケソ・フレスコ",
+        categoryMenu    = 1,
+        subcategoryMenu = 10 + (SkystellToolsUnlocked and 1 or 0),
+        listIndex       = 5,
+        price           = 15
+    },    
+    {
+        itemName        = "ウールバックのロース肉",
+        categoryMenu    = 1,
+        subcategoryMenu = 10 + (SkystellToolsUnlocked and 1 or 0),
+        listIndex       = 6,
+        price           = 15
+    },
+    {
+        itemName        = "キャッサバ",
+        categoryMenu    = 1,
+        subcategoryMenu = 10 + (SkystellToolsUnlocked and 1 or 0),
+        listIndex       = 7,
+        price           = 15
+    },      
     {
         itemName        = "名匠のハイアルテマテリジャ",
         categoryMenu    = 2,
